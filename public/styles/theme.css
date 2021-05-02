@@ -1,0 +1,38 @@
+@media  (max-width: 767px){
+    header{
+        color: #fbe0c4;
+        background-color: #0061a8;
+    }
+    body{
+        background-color: #8ab6d6;
+    }
+    a{
+        background-color: #2978b5;
+        color: #fbe0c4;
+        
+        
+    }
+    label{
+        color: #fbe0c4;
+
+
+    }
+    button{
+        background-color: #2978b5;
+        color: #fbe0c4;
+        padding: 5px;
+    }
+    main h1{
+        color: #fbe0c4;
+    }
+    div h2{
+        color: #fbe0c4;
+    }
+    div h3{
+        color: #fbe0c4;
+    }
+    div p{
+        color: #fbe0c4;
+    
+    }
+}
