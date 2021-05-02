@@ -15,7 +15,7 @@ html, css, js, node.js, express.
 ## Change Log
 
 
-25-04-2021 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource.
+02-05-2021 11:05pm - Application now has a fully-functional express server, with a GET route for the location resource.
 
 
 ## Feature Update
