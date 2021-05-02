@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book App</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Book App</h1>
+    </header>
+    <main>
+        <section class="links">
+            <a href="/">Home</a>
+            <a href="/searches/new">Search Book</a>
+        </section>
+        <h1>Books List</h1>
+
+        <section>
+            
+            <% booksArr.forEach(book=>{ %>
+                <div>
+                    <img src="<%= book.url %>" alt="">
+                    <h2>
+                        <%= book.title %>
+                    </h2>
+                    <h3>
+                        <%= book.author %>
+                    </h3>
+                    <p>
+                        <%= book.description %>
+                    </p>
+
+
+                </div>
+
+                <% }) %>
+
+        </section>
+
+
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>

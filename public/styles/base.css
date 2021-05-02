@@ -1,0 +1,49 @@
+*{
+
+    box-sizing: border-box;
+       
+}
+
+@media  (max-width: 767px){
+    header{
+        display: flex;
+        text-align: center;
+        align-content: center ;
+        justify-content: center;
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-content: center ;
+        justify-content: center;
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        justify-content: center;
+        margin: auto;
+
+        width: 50%;
+
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        justify-content: center;
+        width: 60%;
+        margin: auto;
+
+    }
+    
+
+    
+}

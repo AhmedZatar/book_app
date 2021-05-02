@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+@media  (max-width: 767px){
+    header{
+        
+        height: 80px;
+        line-height: 80px;
+        font-size: x-large;
+        font-family: 'Krona One', sans-serif;
+        border: solid #2978b5;
+
+    }
+    a{
+        text-decoration: none;
+        height: 50px;
+        line-height: 50px;
+        border: 4px groove white;
+        font-size: large;
+        font-family: 'Noto Sans JP', sans-serif;
+        margin-top: 10px;
+        margin-bottom: 30px;
+               
+    }
+    label{
+        font-size: large;
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+
+    input{
+        margin-top: 20px;
+    
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+    button{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: 'Krona One', sans-serif;
+        
+
+    }
+    main h1{
+        text-align: center;
+        font-size: large;
+        font-family: 'Krona One', sans-serif;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    main img{
+        text-align: center;
+        justify-self: center;
+        align-self: center;
+        height: 300px;
+        width: 200px;
+    }
+    div h2{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+    div h3{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+    div p{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-family: 'Noto Sans JP', sans-serif;
+    
+    }
+
+}
