@@ -4,7 +4,7 @@
 **Version**: 1.0.0 
 
 ## Overview
-A website that shows you the city and the weather for the city
+A website that shows you books from google books api
 
 ## Getting Started
 Repository Set Up , do all functionality, then deploy it to Heroku. 
