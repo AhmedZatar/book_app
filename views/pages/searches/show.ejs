@@ -10,33 +10,33 @@
 </head>
 
 <body>
-    <header>
-        <h1>Book App</h1>
-    </header>
+    <%- include('../layout/header') %>
     <main>
-        <section class="links">
-            <a href="/">Home</a>
-            <a href="/searches/new">Search Book</a>
-        </section>
+        
         <h1>Books List</h1>
 
         <section>
             
             <% booksArr.forEach(book=>{ %>
-                <div>
+                <form class="book" method="POST" action="/addbook">
                     <img src="<%= book.url %>" alt="">
+                    <input type="hidden" name="url" value="<%= book.url %>">
                     <h2>
-                        <%= book.title %>
+                       Title: <%= book.title %>
                     </h2>
+                    <input type="hidden" name="title" value="<%= book.title %>">
+
                     <h3>
-                        <%= book.author %>
+                       Author: <%= book.author %>
                     </h3>
+                    <input type="hidden" name="author" value="<%= book.author %>">
                     <p>
-                        <%= book.description %>
+                        Description: <%= book.description %>
                     </p>
+                    <input type="hidden" name="description" value="<%= book.description %>">
 
-
-                </div>
+                    <button>Select this book</button>
+                </form>
 
                 <% }) %>
 

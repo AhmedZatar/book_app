@@ -6,16 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book App</title>
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="../styles/style.css">
 
 </head>
 
 <body>
     <%- include('./layout/header') %>
     <main>
-        <h1>You have : <%= booksdata.length %> books</h1>
+        <h1>Your book details</h1>
 
-        <% booksdata.forEach(book=>{ %>
             <div>
                 <img src="<%= book.url %>" alt="">
                 <h2>
@@ -23,12 +22,12 @@
                 </h2>
                 <h3>
                     Author: <%= book.author %>
-                </h3>     
-                <a href="/books/<%=book.id%>">View details</a>     
+                </h3> 
+                <p>
+                    Description: <%= book.description %>
+                </p>     
 
             </div>
-        <% }) %>
-
 
 
     </main>
