@@ -22,8 +22,18 @@
         color: #fbe0c4;
         padding: 5px;
     }
-    main h1{
+     h1{
         color: #fbe0c4;
+    }
+    form h2{
+        color: #fbe0c4;
+    }
+    form h3{
+        color: #fbe0c4;
+    }
+    form p{
+        color: #fbe0c4;
+    
     }
     div h2{
         color: #fbe0c4;
@@ -34,5 +44,12 @@
     div p{
         color: #fbe0c4;
     
+    }
+    
+    .book{
+        background-color: #0061a8;
+    }
+    div{
+        background-color: #0061a8;
     }
 }

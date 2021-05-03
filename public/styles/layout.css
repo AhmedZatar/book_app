@@ -3,9 +3,12 @@
 
 @media  (max-width: 767px){
     header{
+
+        display: flex;
+        flex-direction: column;
         
-        height: 80px;
-        line-height: 80px;
+        height: 300px;
+        line-height: 100px;
         font-size: x-large;
         font-family: 'Krona One', sans-serif;
         border: solid #2978b5;
@@ -33,6 +36,8 @@
         font-family: 'Noto Sans JP', sans-serif;
     }
     button{
+        width: 50%;
+        align-self: center;
         margin-top: 20px;
         margin-bottom: 20px;
         font-family: 'Krona One', sans-serif;
@@ -46,28 +51,35 @@
         margin-top: 10px;
         margin-bottom: 15px;
     }
-    main img{
+    form img{
         text-align: center;
         justify-self: center;
         align-self: center;
         height: 300px;
         width: 200px;
+        margin-top: 5px;
     }
-    div h2{
+    form h2{
         margin-top: 15px;
         margin-bottom: 15px;
         font-family: 'Noto Sans JP', sans-serif;
     }
-    div h3{
+    form h3{
         margin-top: 15px;
         margin-bottom: 15px;
         font-family: 'Noto Sans JP', sans-serif;
     }
-    div p{
+    form p{
         margin-top: 15px;
         margin-bottom: 15px;
         font-family: 'Noto Sans JP', sans-serif;
     
     }
+    .book{
+        margin-top: 10px;
+        margin-bottom: 10px;
+               
+    }
+
 
 }

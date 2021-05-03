@@ -1,0 +1,33 @@
+@media  (max-width: 767px){
+form img{
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    height: 300px;
+    width: 200px;
+    margin-top: 5px;
+}
+form h2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+form h3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+form p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Noto Sans JP', sans-serif;
+
+}
+.book{
+    margin-top: 10px;
+    margin-bottom: 10px;
+           
+}
+
+
+}
