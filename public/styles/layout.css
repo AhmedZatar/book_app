@@ -25,60 +25,13 @@
         margin-bottom: 30px;
                
     }
-    label{
-        font-size: large;
-        font-family: 'Noto Sans JP', sans-serif;
-    }
-
-    input{
-        margin-top: 20px;
     
-        font-family: 'Noto Sans JP', sans-serif;
-    }
-    button{
-        width: 50%;
-        align-self: center;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        font-family: 'Krona One', sans-serif;
-        
-
-    }
     main h1{
         text-align: center;
         font-size: large;
         font-family: 'Krona One', sans-serif;
         margin-top: 10px;
         margin-bottom: 15px;
-    }
-    form img{
-        text-align: center;
-        justify-self: center;
-        align-self: center;
-        height: 300px;
-        width: 200px;
-        margin-top: 5px;
-    }
-    form h2{
-        margin-top: 15px;
-        margin-bottom: 15px;
-        font-family: 'Noto Sans JP', sans-serif;
-    }
-    form h3{
-        margin-top: 15px;
-        margin-bottom: 15px;
-        font-family: 'Noto Sans JP', sans-serif;
-    }
-    form p{
-        margin-top: 15px;
-        margin-bottom: 15px;
-        font-family: 'Noto Sans JP', sans-serif;
-    
-    }
-    .book{
-        margin-top: 10px;
-        margin-bottom: 10px;
-               
     }
 
 
